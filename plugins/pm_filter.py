@@ -107,37 +107,37 @@ async def next_page(bot, query):
                 InlineKeyboardButton("⤘", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         reply_markup = InlineKeyboardMarkup(btn)
-        await query.message.edit_text(
+        await query.message_reply_markup(
             text="█▒▒▒▒▒▒▒▒▒ 𝟭𝟬%"
         )
-        await query.message.edit_text(
+        await query.message_reply_markup(
             text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%"
         )
-        await query.message.edit_text(
+        await query.message_reply_markup(
             text="███▒▒▒▒▒▒▒ 𝟯𝟬%"
         )
-        await query.message.edit_text(
+        await query.message_reply_markup(
             text="████▒▒▒▒▒▒ 𝟰𝟬%"
         )
-        await query.message.edit_text(
+        await query.message_reply_markup(
             text="█████▒▒▒▒▒ 𝟱𝟬%"
         )
-        await query.message.edit_text(
+        await query.message_reply_markup(
             text="██████▒▒▒▒ 𝟲𝟬%"
         )
-        await query.message.edit_text(
+        await query.message_reply_markup(
             text="███████▒▒▒ 𝟳𝟬%"
         )
-        await query.message.edit_text(
+        await query.message_reply_markup(
             text="████████▒▒ 𝟴𝟬%"
         )
-        await query.message.edit_text(
+        await query.message_reply_markup(
             text="█████████▒ 𝟵𝟬%"
         )
-        await query.message.edit_text(
+        await query.message_reply_markup(
             text="██████████ 𝟭𝟬𝟬%"
         )
-        await query.message.edit_text(
+        await query.message_reply_markup(
             text="Λ K K Λ"
         )
         await query.message.edit_text(
