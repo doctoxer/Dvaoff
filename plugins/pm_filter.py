@@ -106,45 +106,6 @@ async def next_page(bot, query):
                 InlineKeyboardButton(f"☬ 𝙿𝙰𝙶𝙴𝚂 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
                 InlineKeyboardButton("⤘", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
-        reply_markup = InlineKeyboardMarkup(btn)
-        await query.message_reply_markup(
-            text="█▒▒▒▒▒▒▒▒▒ 𝟭𝟬%"
-        )
-        await query.message_reply_markup(
-            text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%"
-        )
-        await query.message_reply_markup(
-            text="███▒▒▒▒▒▒▒ 𝟯𝟬%"
-        )
-        await query.message_reply_markup(
-            text="████▒▒▒▒▒▒ 𝟰𝟬%"
-        )
-        await query.message_reply_markup(
-            text="█████▒▒▒▒▒ 𝟱𝟬%"
-        )
-        await query.message_reply_markup(
-            text="██████▒▒▒▒ 𝟲𝟬%"
-        )
-        await query.message_reply_markup(
-            text="███████▒▒▒ 𝟳𝟬%"
-        )
-        await query.message_reply_markup(
-            text="████████▒▒ 𝟴𝟬%"
-        )
-        await query.message_reply_markup(
-            text="█████████▒ 𝟵𝟬%"
-        )
-        await query.message_reply_markup(
-            text="██████████ 𝟭𝟬𝟬%"
-        )
-        await query.message_reply_markup(
-            text="Λ K K Λ"
-        )
-        await query.message.edit_text(
-            text=script.ABOUT_TXT,
-            reply_markup=reply_markup,
-            parse_mode='html'
-        )
     try:
         await query.edit_message_reply_markup(
             reply_markup=InlineKeyboardMarkup(btn)
@@ -152,6 +113,10 @@ async def next_page(bot, query):
     except MessageNotModified:
         pass
     await query.answer()
+    else:
+            k = await query.message.edit('Buttons Are Closed')
+            await asyncio.sleep(10)
+            await k.delete()
 
 
 @Client.on_callback_query(filters.regex(r"^spolling"))
