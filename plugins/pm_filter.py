@@ -64,7 +64,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"🪄『{get_size(file.file_size)}🎬{file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"『ΛKKΛ』{file.file_name}{get_size(file.file_size)}", callback_data=f'files#{file.file_id}'
                 ),
             ]
             for file in files
@@ -73,7 +73,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"{file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"『ΛKKΛ』{file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
                 InlineKeyboardButton(
                     text=f"{get_size(file.file_size)}",
@@ -106,6 +106,44 @@ async def next_page(bot, query):
                 InlineKeyboardButton(f"☬ 𝙿𝙰𝙶𝙴𝚂 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
                 InlineKeyboardButton("⤘", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="■□□□□□□□□□ 10%"
+        )
+        await query.message.edit_text(
+            text="■■□□□□□□□□ 20%"
+        )
+        await query.message.edit_text(
+            text="■■■□□□□□□□ 30%"
+        )
+        await query.message.edit_text(
+            text="■■■■□□□□□□ 40%"
+        )
+        await query.message.edit_text(
+            text="■■■■■□□□□□ 50%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■□□□□ 60%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■■□□□ 70%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■■■□□ 80%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■■■■□ 90%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■■■■■ 100%"
+        )
+        await query.message.edit_text(
+            text="L E Ø"
+        )
+        await query.message.edit_text(
+            text=script.ABOUT_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
         )
     try:
         await query.edit_message_reply_markup(
