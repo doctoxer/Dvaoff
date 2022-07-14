@@ -110,8 +110,8 @@ async def next_page(bot, query):
             text=script.ABOUT_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
-            )
-        reply_markup = InlineKeyboardMarkup(btn)
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text="█▒▒▒▒▒▒▒▒▒ 𝟭𝟬%"
         )
