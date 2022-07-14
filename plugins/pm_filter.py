@@ -139,7 +139,7 @@ async def next_page(bot, query):
             text="██████████ 𝟭𝟬𝟬
         )
         await query.message.edit_text(
-            text="L E Ø"
+            text="Λ K K Λ"
         )
         await query.message.edit_text(
             text=script.ABOUT_TXT,
@@ -255,7 +255,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton(f"{stat}", callback_data=f"{cb}:{group_id}"),
              InlineKeyboardButton("✘ DELETE ✘", callback_data=f"deletecb:{group_id}")],
-            [InlineKeyboardButton("☜ 𝙱𝙰𝙲𝙺", callback_data="backcb")]
+            [InlineKeyboardButton("⬽", callback_data="backcb")]
         ])
 
         await query.message.edit_text(
@@ -453,6 +453,40 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="█▒▒▒▒▒▒▒▒▒ 𝟭𝟬%"
+        )
+        await query.message.edit_text(
+            text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%
+        )
+        await query.message.edit_text(
+            text="███▒▒▒▒▒▒▒ 𝟯𝟬%
+        )
+        await query.message.edit_text(
+            text="████▒▒▒▒▒▒ 𝟰𝟬%
+        )
+        await query.message.edit_text(
+            text="█████▒▒▒▒▒ 𝟱𝟬%
+        )
+        await query.message.edit_text(
+            text="██████▒▒▒▒ 𝟲𝟬%
+        )
+        await query.message.edit_text(
+            text="███████▒▒▒ 𝟳𝟬%
+        )
+        await query.message.edit_text(
+            text="████████▒▒ 𝟴𝟬%
+        )
+        await query.message.edit_text(
+            text="█████████▒ 𝟵𝟬%"
+        )
+        await query.message.edit_text(
+            text="██████████ 𝟭𝟬𝟬
+        )
+        await query.message.edit_text(
+            text="Λ K K Λ"
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
             text=script.START_TXT.format(query.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode='html'
@@ -471,6 +505,40 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="█▒▒▒▒▒▒▒▒▒ 𝟭𝟬%"
+        )
+        await query.message.edit_text(
+            text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%
+        )
+        await query.message.edit_text(
+            text="███▒▒▒▒▒▒▒ 𝟯𝟬%
+        )
+        await query.message.edit_text(
+            text="████▒▒▒▒▒▒ 𝟰𝟬%
+        )
+        await query.message.edit_text(
+            text="█████▒▒▒▒▒ 𝟱𝟬%
+        )
+        await query.message.edit_text(
+            text="██████▒▒▒▒ 𝟲𝟬%
+        )
+        await query.message.edit_text(
+            text="███████▒▒▒ 𝟳𝟬%
+        )
+        await query.message.edit_text(
+            text="████████▒▒ 𝟴𝟬%
+        )
+        await query.message.edit_text(
+            text="█████████▒ 𝟵𝟬%"
+        )
+        await query.message.edit_text(
+            text="██████████ 𝟭𝟬𝟬
+        )
+        await query.message.edit_text(
+            text="Λ K K Λ"
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
             text=script.HELP_TXT.format(query.from_user.mention),
             reply_markup=reply_markup,
             parse_mode='html'
@@ -485,37 +553,37 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="■□□□□□□□□□ 10%"
+            text="█▒▒▒▒▒▒▒▒▒ 𝟭𝟬%"
         )
         await query.message.edit_text(
-            text="■■□□□□□□□□ 20%"
+            text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%
         )
         await query.message.edit_text(
-            text="■■■□□□□□□□ 30%"
+            text="███▒▒▒▒▒▒▒ 𝟯𝟬%
         )
         await query.message.edit_text(
-            text="■■■■□□□□□□ 40%"
+            text="████▒▒▒▒▒▒ 𝟰𝟬%
         )
         await query.message.edit_text(
-            text="■■■■■□□□□□ 50%"
+            text="█████▒▒▒▒▒ 𝟱𝟬%
         )
         await query.message.edit_text(
-            text="■■■■■■□□□□ 60%"
+            text="██████▒▒▒▒ 𝟲𝟬%
         )
         await query.message.edit_text(
-            text="■■■■■■■□□□ 70%"
+            text="███████▒▒▒ 𝟳𝟬%
         )
         await query.message.edit_text(
-            text="■■■■■■■■□□ 80%"
+            text="████████▒▒ 𝟴𝟬%
         )
         await query.message.edit_text(
-            text="■■■■■■■■■□ 90%"
+            text="█████████▒ 𝟵𝟬%"
         )
         await query.message.edit_text(
-            text="■■■■■■■■■■ 100%"
+            text="██████████ 𝟭𝟬𝟬
         )
         await query.message.edit_text(
-            text="L E Ø"
+            text="Λ K K Λ"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -529,44 +597,45 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="█▒▒▒▒▒▒▒▒▒ 𝟭𝟬%"
+        )
+        await query.message.edit_text(
+            text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%
+        )
+        await query.message.edit_text(
+            text="███▒▒▒▒▒▒▒ 𝟯𝟬%
+        )
+        await query.message.edit_text(
+            text="████▒▒▒▒▒▒ 𝟰𝟬%
+        )
+        await query.message.edit_text(
+            text="█████▒▒▒▒▒ 𝟱𝟬%
+        )
+        await query.message.edit_text(
+            text="██████▒▒▒▒ 𝟲𝟬%
+        )
+        await query.message.edit_text(
+            text="███████▒▒▒ 𝟳𝟬%
+        )
+        await query.message.edit_text(
+            text="████████▒▒ 𝟴𝟬%
+        )
+        await query.message.edit_text(
+            text="█████████▒ 𝟵𝟬%"
+        )
+        await query.message.edit_text(
+            text="██████████ 𝟭𝟬𝟬
+        )
+        await query.message.edit_text(
+            text="Λ K K Λ"
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
             text=script.SOURCE_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text="■□□□□□□□□□ 10%"
-        )
-        await query.message.edit_text(
-            text="■■□□□□□□□□ 20%"
-        )
-        await query.message.edit_text(
-            text="■■■□□□□□□□ 30%"
-        )
-        await query.message.edit_text(
-            text="■■■■□□□□□□ 40%"
-        )
-        await query.message.edit_text(
-            text="■■■■■□□□□□ 50%"
-        )
-        await query.message.edit_text(
-            text="■■■■■■□□□□ 60%"
-        )
-        await query.message.edit_text(
-            text="■■■■■■■□□□ 70%"
-        )
-        await query.message.edit_text(
-            text="■■■■■■■■□□ 80%"
-        )
-        await query.message.edit_text(
-            text="■■■■■■■■■□ 90%"
-        )
-        await query.message.edit_text(
-            text="■■■■■■■■■■ 100%"
-        )
-        await query.message.edit_text(
-            text="L E Ø"
-        )
+        
     elif query.data == "manuelfilter":
         buttons = [[
             InlineKeyboardButton('⬽', callback_data='help'),
@@ -574,88 +643,90 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="█▒▒▒▒▒▒▒▒▒ 𝟭𝟬%"
+        )
+        await query.message.edit_text(
+            text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%
+        )
+        await query.message.edit_text(
+            text="███▒▒▒▒▒▒▒ 𝟯𝟬%
+        )
+        await query.message.edit_text(
+            text="████▒▒▒▒▒▒ 𝟰𝟬%
+        )
+        await query.message.edit_text(
+            text="█████▒▒▒▒▒ 𝟱𝟬%
+        )
+        await query.message.edit_text(
+            text="██████▒▒▒▒ 𝟲𝟬%
+        )
+        await query.message.edit_text(
+            text="███████▒▒▒ 𝟳𝟬%
+        )
+        await query.message.edit_text(
+            text="████████▒▒ 𝟴𝟬%
+        )
+        await query.message.edit_text(
+            text="█████████▒ 𝟵𝟬%"
+        )
+        await query.message.edit_text(
+            text="██████████ 𝟭𝟬𝟬
+        )
+        await query.message.edit_text(
+            text="Λ K K Λ"
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
             text=script.MANUELFILTER_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text="■□□□□□□□□□ 10%"
-        )
-        await query.message.edit_text(
-            text="■■□□□□□□□□ 20%"
-        )
-        await query.message.edit_text(
-            text="■■■□□□□□□□ 30%"
-        )
-        await query.message.edit_text(
-            text="■■■■□□□□□□ 40%"
-        )
-        await query.message.edit_text(
-            text="■■■■■□□□□□ 50%"
-        )
-        await query.message.edit_text(
-            text="■■■■■■□□□□ 60%"
-        )
-        await query.message.edit_text(
-            text="■■■■■■■□□□ 70%"
-        )
-        await query.message.edit_text(
-            text="■■■■■■■■□□ 80%"
-        )
-        await query.message.edit_text(
-            text="■■■■■■■■■□ 90%"
-        )
-        await query.message.edit_text(
-            text="■■■■■■■■■■ 100%"
-        )
-        await query.message.edit_text(
-            text="L E Ø"
-        )
+        
     elif query.data == "button":
         buttons = [[
             InlineKeyboardButton('⬽', callback_data='manuelfilter')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
+            text="█▒▒▒▒▒▒▒▒▒ 𝟭𝟬%"
+        )
+        await query.message.edit_text(
+            text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%
+        )
+        await query.message.edit_text(
+            text="███▒▒▒▒▒▒▒ 𝟯𝟬%
+        )
+        await query.message.edit_text(
+            text="████▒▒▒▒▒▒ 𝟰𝟬%
+        )
+        await query.message.edit_text(
+            text="█████▒▒▒▒▒ 𝟱𝟬%
+        )
+        await query.message.edit_text(
+            text="██████▒▒▒▒ 𝟲𝟬%
+        )
+        await query.message.edit_text(
+            text="███████▒▒▒ 𝟳𝟬%
+        )
+        await query.message.edit_text(
+            text="████████▒▒ 𝟴𝟬%
+        )
+        await query.message.edit_text(
+            text="█████████▒ 𝟵𝟬%"
+        )
+        await query.message.edit_text(
+            text="██████████ 𝟭𝟬𝟬
+        )
+        await query.message.edit_text(
+            text="Λ K K Λ"
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
             text=script.BUTTON_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text="■□□□□□□□□□ 10%"
-        )
-        await query.message.edit_text(
-            text="■■□□□□□□□□ 20%"
-        )
-        await query.message.edit_text(
-            text="■■■□□□□□□□ 30%"
-        )
-        await query.message.edit_text(
-            text="■■■■□□□□□□ 40%"
-        )
-        await query.message.edit_text(
-            text="■■■■■□□□□□ 50%"
-        )
-        await query.message.edit_text(
-            text="■■■■■■□□□□ 60%"
-        )
-        await query.message.edit_text(
-            text="■■■■■■■□□□ 70%"
-        )
-        await query.message.edit_text(
-            text="■■■■■■■■□□ 80%"
-        )
-        await query.message.edit_text(
-            text="■■■■■■■■■□ 90%"
-        )
-        await query.message.edit_text(
-            text="■■■■■■■■■■ 100%"
-        )
-        await query.message.edit_text(
-            text="L E Ø"
-        )
+        
     elif query.data == "autofilter":
         buttons = [[
             InlineKeyboardButton('⬽', callback_data='help')
@@ -683,43 +754,43 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.EXTRAMOD_TXT,
-            reply_markup=reply_markup,
-            parse_mode='html'
+            text="█▒▒▒▒▒▒▒▒▒ 𝟭𝟬%"
+        )
+        await query.message.edit_text(
+            text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%
+        )
+        await query.message.edit_text(
+            text="███▒▒▒▒▒▒▒ 𝟯𝟬%
+        )
+        await query.message.edit_text(
+            text="████▒▒▒▒▒▒ 𝟰𝟬%
+        )
+        await query.message.edit_text(
+            text="█████▒▒▒▒▒ 𝟱𝟬%
+        )
+        await query.message.edit_text(
+            text="██████▒▒▒▒ 𝟲𝟬%
+        )
+        await query.message.edit_text(
+            text="███████▒▒▒ 𝟳𝟬%
+        )
+        await query.message.edit_text(
+            text="████████▒▒ 𝟴𝟬%
+        )
+        await query.message.edit_text(
+            text="█████████▒ 𝟵𝟬%"
+        )
+        await query.message.edit_text(
+            text="██████████ 𝟭𝟬𝟬
+        )
+        await query.message.edit_text(
+            text="Λ K K Λ"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="■□□□□□□□□□ 10%"
-        )
-        await query.message.edit_text(
-            text="■■□□□□□□□□ 20%"
-        )
-        await query.message.edit_text(
-            text="■■■□□□□□□□ 30%"
-        )
-        await query.message.edit_text(
-            text="■■■■□□□□□□ 40%"
-        )
-        await query.message.edit_text(
-            text="■■■■■□□□□□ 50%"
-        )
-        await query.message.edit_text(
-            text="■■■■■■□□□□ 60%"
-        )
-        await query.message.edit_text(
-            text="■■■■■■■□□□ 70%"
-        )
-        await query.message.edit_text(
-            text="■■■■■■■■□□ 80%"
-        )
-        await query.message.edit_text(
-            text="■■■■■■■■■□ 90%"
-        )
-        await query.message.edit_text(
-            text="■■■■■■■■■■ 100%"
-        )
-        await query.message.edit_text(
-            text="L E Ø"
+            text=script.EXTRAMOD_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
         )
     elif query.data == "admin":
         buttons = [[
@@ -850,7 +921,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"❆{get_size(file.file_size)}〛🎬{file.file_name}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"『ΛKKΛ』{file.file_name}{get_size(file.file_size)}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
@@ -917,7 +988,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"Here is what i found for your query {search}"
+        cap = f"Here is what i found for your query {query}"
     if imdb and imdb.get('poster'):
         try:
             await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
