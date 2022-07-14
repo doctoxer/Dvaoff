@@ -444,6 +444,40 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('⌂ Home ⌂', callback_data='start'),
             InlineKeyboardButton('✘ Close ✘', callback_data='close_data')
         ]]
+         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="■□□□□□□□□□ 10%"
+        )
+        await query.message.edit_text(
+            text="■■□□□□□□□□ 20%"
+        )
+        await query.message.edit_text(
+            text="■■■□□□□□□□ 30%"
+        )
+        await query.message.edit_text(
+            text="■■■■□□□□□□ 40%"
+        )
+        await query.message.edit_text(
+            text="■■■■■□□□□□ 50%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■□□□□ 60%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■■□□□ 70%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■■■□□ 80%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■■■■□ 90%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■■■■■ 100%"
+        )
+        await query.message.edit_text(
+            text="L E Ø"
+        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.ABOUT_TXT.format(temp.B_NAME),
@@ -460,6 +494,40 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="■□□□□□□□□□ 10%"
+        )
+        await query.message.edit_text(
+            text="■■□□□□□□□□ 20%"
+        )
+        await query.message.edit_text(
+            text="■■■□□□□□□□ 30%"
+        )
+        await query.message.edit_text(
+            text="■■■■□□□□□□ 40%"
+        )
+        await query.message.edit_text(
+            text="■■■■■□□□□□ 50%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■□□□□ 60%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■■□□□ 70%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■■■□□ 80%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■■■■□ 90%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■■■■■ 100%"
+        )
+        await query.message.edit_text(
+            text="L E Ø"
+        )
     elif query.data == "manuelfilter":
         buttons = [[
             InlineKeyboardButton('☜ 𝙱𝙰𝙲𝙺', callback_data='help'),
@@ -471,6 +539,40 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="■□□□□□□□□□ 10%"
+        )
+        await query.message.edit_text(
+            text="■■□□□□□□□□ 20%"
+        )
+        await query.message.edit_text(
+            text="■■■□□□□□□□ 30%"
+        )
+        await query.message.edit_text(
+            text="■■■■□□□□□□ 40%"
+        )
+        await query.message.edit_text(
+            text="■■■■■□□□□□ 50%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■□□□□ 60%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■■□□□ 70%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■■■□□ 80%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■■■■□ 90%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■■■■■ 100%"
+        )
+        await query.message.edit_text(
+            text="L E Ø"
+        )
     elif query.data == "button":
         buttons = [[
             InlineKeyboardButton('☜ 𝙱𝙰𝙲𝙺', callback_data='manuelfilter')
@@ -480,6 +582,40 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.BUTTON_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
+        )
+         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="■□□□□□□□□□ 10%"
+        )
+        await query.message.edit_text(
+            text="■■□□□□□□□□ 20%"
+        )
+        await query.message.edit_text(
+            text="■■■□□□□□□□ 30%"
+        )
+        await query.message.edit_text(
+            text="■■■■□□□□□□ 40%"
+        )
+        await query.message.edit_text(
+            text="■■■■■□□□□□ 50%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■□□□□ 60%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■■□□□ 70%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■■■□□ 80%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■■■■□ 90%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■■■■■ 100%"
+        )
+        await query.message.edit_text(
+            text="L E Ø"
         )
     elif query.data == "autofilter":
         buttons = [[
@@ -511,6 +647,40 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.EXTRAMOD_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
+        )
+         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="■□□□□□□□□□ 10%"
+        )
+        await query.message.edit_text(
+            text="■■□□□□□□□□ 20%"
+        )
+        await query.message.edit_text(
+            text="■■■□□□□□□□ 30%"
+        )
+        await query.message.edit_text(
+            text="■■■■□□□□□□ 40%"
+        )
+        await query.message.edit_text(
+            text="■■■■■□□□□□ 50%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■□□□□ 60%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■■□□□ 70%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■■■□□ 80%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■■■■□ 90%"
+        )
+        await query.message.edit_text(
+            text="■■■■■■■■■■ 100%"
+        )
+        await query.message.edit_text(
+            text="L E Ø"
         )
     elif query.data == "admin":
         buttons = [[
