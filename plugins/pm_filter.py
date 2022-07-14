@@ -106,11 +106,6 @@ async def next_page(bot, query):
                 InlineKeyboardButton(f"☬ 𝙿𝙰𝙶𝙴𝚂 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
                 InlineKeyboardButton("⤘", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
-        await query.message.edit_text(
-            text=script.ABOUT_TXT,
-            reply_markup=reply_markup,
-            parse_mode='html'
-        )
         reply_markup = InlineKeyboardMarkup(btn)
         await query.message.edit_text(
             text="█▒▒▒▒▒▒▒▒▒ 𝟭𝟬%"
@@ -144,6 +139,11 @@ async def next_page(bot, query):
         )
         await query.message.edit_text(
             text="Λ K K Λ"
+        )
+        await query.message.edit_text(
+            text=script.ABOUT_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
         )
     try:
         await query.edit_message_reply_markup(
