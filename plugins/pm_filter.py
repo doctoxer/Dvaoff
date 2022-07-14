@@ -91,20 +91,20 @@ async def next_page(bot, query):
         off_set = offset - 10
     if n_offset == 0:
         btn.append(
-            [InlineKeyboardButton("☜ 𝙱𝙰𝙲𝙺", callback_data=f"next_{req}_{key}_{off_set}"),
-             InlineKeyboardButton(f"📃 Pages {round(int(offset) / 10) + 1} / {round(total / 10)}",
+            [InlineKeyboardButton("⬽", callback_data=f"next_{req}_{key}_{off_set}"),
+             InlineKeyboardButton(f"☬ 𝙿𝙰𝙶𝙴𝚂 {round(int(offset) / 10) + 1} / {round(total / 10)}",
                                   callback_data="pages")]
         )
     elif off_set is None:
         btn.append(
-            [InlineKeyboardButton(f"📃 𝙿𝙰𝙶𝙴𝚂 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
-             InlineKeyboardButton("𝙽𝙴𝚇𝚃 ☞", callback_data=f"next_{req}_{key}_{n_offset}")])
+            [InlineKeyboardButton(f"☬ 𝙿𝙰𝙶𝙴𝚂 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
+             InlineKeyboardButton("⤘", callback_data=f"next_{req}_{key}_{n_offset}")])
     else:
         btn.append(
             [
-                InlineKeyboardButton("☜ 𝙱𝙰𝙲𝙺", callback_data=f"next_{req}_{key}_{off_set}"),
-                InlineKeyboardButton(f"📃 𝙿𝙰𝙶𝙴𝚂 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
-                InlineKeyboardButton("𝙽𝙴𝚇𝚃 ☞", callback_data=f"next_{req}_{key}_{n_offset}")
+                InlineKeyboardButton("⬽", callback_data=f"next_{req}_{key}_{off_set}"),
+                InlineKeyboardButton(f"☬ 𝙿𝙰𝙶𝙴𝚂 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
+                InlineKeyboardButton("⤘", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
         )
     try:
@@ -942,7 +942,7 @@ async def advantage_spell_chok(msg):
     btn = [[
         InlineKeyboardButton('📹 CAM PRINT', url='https://t.me/+g5Lw52I7Vog0ZmU1')
         ]]
-    btn.append([InlineKeyboardButton('❖𝐆𝐨𝐨𝐠𝐥𝐞 𝐈𝐭❖', url=f'https://www.google.com/search?q={text}')])
+    btn.append([InlineKeyboardButton('❖𝐆𝐨𝐨𝐠𝐥𝐞 𝐈𝐭❖', url=f'https://www.google.com/search?q={search}')])
     await msg.reply("**Dude, 𝖢𝗁𝖾𝖼𝗄 𝗍𝗁𝖾 𝗌𝗉𝖾𝗅𝗅𝗂𝗇𝗀 in google that you requested now. 𝖨𝖿 𝖸𝗈𝗎 𝗁𝖺𝗏𝖾 𝗋𝖾𝗊𝗎𝖾𝗌𝗍𝖾𝖽 𝖥𝗈𝗋 𝖢𝖺𝗆 𝗉𝗋𝗂𝗇𝗍 𝖸𝗈𝗎 𝗐𝗂𝗅𝗅 𝗇𝗈𝗍 𝖦𝖾𝗍 𝗂𝗍. if you want join this channel**",
                     reply_markup=InlineKeyboardMarkup(btn))
 
