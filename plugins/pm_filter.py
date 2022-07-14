@@ -109,34 +109,34 @@ async def next_page(bot, query):
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="■□□□□□□□□□ 10%"
+            text="█▒▒▒▒▒▒▒▒▒ 𝟭𝟬%"
         )
         await query.message.edit_text(
-            text="■■□□□□□□□□ 20%"
+            text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%
         )
         await query.message.edit_text(
-            text="■■■□□□□□□□ 30%"
+            text="███▒▒▒▒▒▒▒ 𝟯𝟬%
         )
         await query.message.edit_text(
-            text="■■■■□□□□□□ 40%"
+            text="████▒▒▒▒▒▒ 𝟰𝟬%
         )
         await query.message.edit_text(
-            text="■■■■■□□□□□ 50%"
+            text="█████▒▒▒▒▒ 𝟱𝟬%
         )
         await query.message.edit_text(
-            text="■■■■■■□□□□ 60%"
+            text="██████▒▒▒▒ 𝟲𝟬%
         )
         await query.message.edit_text(
-            text="■■■■■■■□□□ 70%"
+            text="███████▒▒▒ 𝟳𝟬%
         )
         await query.message.edit_text(
-            text="■■■■■■■■□□ 80%"
+            text="████████▒▒ 𝟴𝟬%
         )
         await query.message.edit_text(
-            text="■■■■■■■■■□ 90%"
+            text="█████████▒ 𝟵𝟬%"
         )
         await query.message.edit_text(
-            text="■■■■■■■■■■ 100%"
+            text="██████████ 𝟭𝟬𝟬
         )
         await query.message.edit_text(
             text="L E Ø"
