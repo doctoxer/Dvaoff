@@ -112,31 +112,31 @@ async def next_page(bot, query):
             text="█▒▒▒▒▒▒▒▒▒ 𝟭𝟬%"
         )
         await query.message.edit_text(
-            text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%
+            text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%"
         )
         await query.message.edit_text(
-            text="███▒▒▒▒▒▒▒ 𝟯𝟬%
+            text="███▒▒▒▒▒▒▒ 𝟯𝟬%"
         )
         await query.message.edit_text(
-            text="████▒▒▒▒▒▒ 𝟰𝟬%
+            text="████▒▒▒▒▒▒ 𝟰𝟬%"
         )
         await query.message.edit_text(
-            text="█████▒▒▒▒▒ 𝟱𝟬%
+            text="█████▒▒▒▒▒ 𝟱𝟬%"
         )
         await query.message.edit_text(
-            text="██████▒▒▒▒ 𝟲𝟬%
+            text="██████▒▒▒▒ 𝟲𝟬%"
         )
         await query.message.edit_text(
-            text="███████▒▒▒ 𝟳𝟬%
+            text="███████▒▒▒ 𝟳𝟬%"
         )
         await query.message.edit_text(
-            text="████████▒▒ 𝟴𝟬%
+            text="████████▒▒ 𝟴𝟬%"
         )
         await query.message.edit_text(
             text="█████████▒ 𝟵𝟬%"
         )
         await query.message.edit_text(
-            text="██████████ 𝟭𝟬𝟬
+            text="██████████ 𝟭𝟬𝟬%"
         )
         await query.message.edit_text(
             text="Λ K K Λ"
@@ -456,31 +456,31 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="█▒▒▒▒▒▒▒▒▒ 𝟭𝟬%"
         )
         await query.message.edit_text(
-            text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%
+            text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%"
         )
         await query.message.edit_text(
-            text="███▒▒▒▒▒▒▒ 𝟯𝟬%
+            text="███▒▒▒▒▒▒▒ 𝟯𝟬%"
         )
         await query.message.edit_text(
-            text="████▒▒▒▒▒▒ 𝟰𝟬%
+            text="████▒▒▒▒▒▒ 𝟰𝟬%"
         )
         await query.message.edit_text(
-            text="█████▒▒▒▒▒ 𝟱𝟬%
+            text="█████▒▒▒▒▒ 𝟱𝟬%"
         )
         await query.message.edit_text(
-            text="██████▒▒▒▒ 𝟲𝟬%
+            text="██████▒▒▒▒ 𝟲𝟬%"
         )
         await query.message.edit_text(
-            text="███████▒▒▒ 𝟳𝟬%
+            text="███████▒▒▒ 𝟳𝟬%"
         )
         await query.message.edit_text(
-            text="████████▒▒ 𝟴𝟬%
+            text="████████▒▒ 𝟴𝟬%"
         )
         await query.message.edit_text(
             text="█████████▒ 𝟵𝟬%"
         )
         await query.message.edit_text(
-            text="██████████ 𝟭𝟬𝟬
+            text="██████████ 𝟭𝟬𝟬%"
         )
         await query.message.edit_text(
             text="Λ K K Λ"
@@ -508,31 +508,31 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="█▒▒▒▒▒▒▒▒▒ 𝟭𝟬%"
         )
         await query.message.edit_text(
-            text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%
+            text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%"
         )
         await query.message.edit_text(
-            text="███▒▒▒▒▒▒▒ 𝟯𝟬%
+            text="███▒▒▒▒▒▒▒ 𝟯𝟬%"
         )
         await query.message.edit_text(
-            text="████▒▒▒▒▒▒ 𝟰𝟬%
+            text="████▒▒▒▒▒▒ 𝟰𝟬%"
         )
         await query.message.edit_text(
-            text="█████▒▒▒▒▒ 𝟱𝟬%
+            text="█████▒▒▒▒▒ 𝟱𝟬%"
         )
         await query.message.edit_text(
-            text="██████▒▒▒▒ 𝟲𝟬%
+            text="██████▒▒▒▒ 𝟲𝟬%"
         )
         await query.message.edit_text(
-            text="███████▒▒▒ 𝟳𝟬%
+            text="███████▒▒▒ 𝟳𝟬%"
         )
         await query.message.edit_text(
-            text="████████▒▒ 𝟴𝟬%
+            text="████████▒▒ 𝟴𝟬%"
         )
         await query.message.edit_text(
             text="█████████▒ 𝟵𝟬%"
         )
         await query.message.edit_text(
-            text="██████████ 𝟭𝟬𝟬
+            text="██████████ 𝟭𝟬𝟬%"
         )
         await query.message.edit_text(
             text="Λ K K Λ"
@@ -556,31 +556,31 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="█▒▒▒▒▒▒▒▒▒ 𝟭𝟬%"
         )
         await query.message.edit_text(
-            text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%
+            text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%"
         )
         await query.message.edit_text(
-            text="███▒▒▒▒▒▒▒ 𝟯𝟬%
+            text="███▒▒▒▒▒▒▒ 𝟯𝟬%"
         )
         await query.message.edit_text(
-            text="████▒▒▒▒▒▒ 𝟰𝟬%
+            text="████▒▒▒▒▒▒ 𝟰𝟬%"
         )
         await query.message.edit_text(
-            text="█████▒▒▒▒▒ 𝟱𝟬%
+            text="█████▒▒▒▒▒ 𝟱𝟬%"
         )
         await query.message.edit_text(
-            text="██████▒▒▒▒ 𝟲𝟬%
+            text="██████▒▒▒▒ 𝟲𝟬%"
         )
         await query.message.edit_text(
-            text="███████▒▒▒ 𝟳𝟬%
+            text="███████▒▒▒ 𝟳𝟬%"
         )
         await query.message.edit_text(
-            text="████████▒▒ 𝟴𝟬%
+            text="████████▒▒ 𝟴𝟬%"
         )
         await query.message.edit_text(
             text="█████████▒ 𝟵𝟬%"
         )
         await query.message.edit_text(
-            text="██████████ 𝟭𝟬𝟬
+            text="██████████ 𝟭𝟬𝟬%"
         )
         await query.message.edit_text(
             text="Λ K K Λ"
@@ -600,31 +600,31 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="█▒▒▒▒▒▒▒▒▒ 𝟭𝟬%"
         )
         await query.message.edit_text(
-            text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%
+            text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%"
         )
         await query.message.edit_text(
-            text="███▒▒▒▒▒▒▒ 𝟯𝟬%
+            text="███▒▒▒▒▒▒▒ 𝟯𝟬%"
         )
         await query.message.edit_text(
-            text="████▒▒▒▒▒▒ 𝟰𝟬%
+            text="████▒▒▒▒▒▒ 𝟰𝟬%"
         )
         await query.message.edit_text(
-            text="█████▒▒▒▒▒ 𝟱𝟬%
+            text="█████▒▒▒▒▒ 𝟱𝟬%"
         )
         await query.message.edit_text(
-            text="██████▒▒▒▒ 𝟲𝟬%
+            text="██████▒▒▒▒ 𝟲𝟬%"
         )
         await query.message.edit_text(
-            text="███████▒▒▒ 𝟳𝟬%
+            text="███████▒▒▒ 𝟳𝟬%"
         )
         await query.message.edit_text(
-            text="████████▒▒ 𝟴𝟬%
+            text="████████▒▒ 𝟴𝟬%"
         )
         await query.message.edit_text(
             text="█████████▒ 𝟵𝟬%"
         )
         await query.message.edit_text(
-            text="██████████ 𝟭𝟬𝟬
+            text="██████████ 𝟭𝟬𝟬%"
         )
         await query.message.edit_text(
             text="Λ K K Λ"
@@ -646,31 +646,31 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="█▒▒▒▒▒▒▒▒▒ 𝟭𝟬%"
         )
         await query.message.edit_text(
-            text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%
+            text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%"
         )
         await query.message.edit_text(
-            text="███▒▒▒▒▒▒▒ 𝟯𝟬%
+            text="███▒▒▒▒▒▒▒ 𝟯𝟬%"
         )
         await query.message.edit_text(
-            text="████▒▒▒▒▒▒ 𝟰𝟬%
+            text="████▒▒▒▒▒▒ 𝟰𝟬%"
         )
         await query.message.edit_text(
-            text="█████▒▒▒▒▒ 𝟱𝟬%
+            text="█████▒▒▒▒▒ 𝟱𝟬%"
         )
         await query.message.edit_text(
-            text="██████▒▒▒▒ 𝟲𝟬%
+            text="██████▒▒▒▒ 𝟲𝟬%"
         )
         await query.message.edit_text(
-            text="███████▒▒▒ 𝟳𝟬%
+            text="███████▒▒▒ 𝟳𝟬%"
         )
         await query.message.edit_text(
-            text="████████▒▒ 𝟴𝟬%
+            text="████████▒▒ 𝟴𝟬%"
         )
         await query.message.edit_text(
             text="█████████▒ 𝟵𝟬%"
         )
         await query.message.edit_text(
-            text="██████████ 𝟭𝟬𝟬
+            text="██████████ 𝟭𝟬𝟬%"
         )
         await query.message.edit_text(
             text="Λ K K Λ"
@@ -691,31 +691,31 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="█▒▒▒▒▒▒▒▒▒ 𝟭𝟬%"
         )
         await query.message.edit_text(
-            text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%
+            text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%"
         )
         await query.message.edit_text(
-            text="███▒▒▒▒▒▒▒ 𝟯𝟬%
+            text="███▒▒▒▒▒▒▒ 𝟯𝟬%"
         )
         await query.message.edit_text(
-            text="████▒▒▒▒▒▒ 𝟰𝟬%
+            text="████▒▒▒▒▒▒ 𝟰𝟬%"
         )
         await query.message.edit_text(
-            text="█████▒▒▒▒▒ 𝟱𝟬%
+            text="█████▒▒▒▒▒ 𝟱𝟬%"
         )
         await query.message.edit_text(
-            text="██████▒▒▒▒ 𝟲𝟬%
+            text="██████▒▒▒▒ 𝟲𝟬%"
         )
         await query.message.edit_text(
-            text="███████▒▒▒ 𝟳𝟬%
+            text="███████▒▒▒ 𝟳𝟬%"
         )
         await query.message.edit_text(
-            text="████████▒▒ 𝟴𝟬%
+            text="████████▒▒ 𝟴𝟬%"
         )
         await query.message.edit_text(
             text="█████████▒ 𝟵𝟬%"
         )
         await query.message.edit_text(
-            text="██████████ 𝟭𝟬𝟬
+            text="██████████ 𝟭𝟬𝟬%"
         )
         await query.message.edit_text(
             text="Λ K K Λ"
@@ -757,31 +757,31 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text="█▒▒▒▒▒▒▒▒▒ 𝟭𝟬%"
         )
         await query.message.edit_text(
-            text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%
+            text="██▒▒▒▒▒▒▒▒ 𝟮𝟬%"
         )
         await query.message.edit_text(
-            text="███▒▒▒▒▒▒▒ 𝟯𝟬%
+            text="███▒▒▒▒▒▒▒ 𝟯𝟬%"
         )
         await query.message.edit_text(
-            text="████▒▒▒▒▒▒ 𝟰𝟬%
+            text="████▒▒▒▒▒▒ 𝟰𝟬%"
         )
         await query.message.edit_text(
-            text="█████▒▒▒▒▒ 𝟱𝟬%
+            text="█████▒▒▒▒▒ 𝟱𝟬%"
         )
         await query.message.edit_text(
-            text="██████▒▒▒▒ 𝟲𝟬%
+            text="██████▒▒▒▒ 𝟲𝟬%"
         )
         await query.message.edit_text(
-            text="███████▒▒▒ 𝟳𝟬%
+            text="███████▒▒▒ 𝟳𝟬%"
         )
         await query.message.edit_text(
-            text="████████▒▒ 𝟴𝟬%
+            text="████████▒▒ 𝟴𝟬%"
         )
         await query.message.edit_text(
             text="█████████▒ 𝟵𝟬%"
         )
         await query.message.edit_text(
-            text="██████████ 𝟭𝟬𝟬
+            text="██████████ 𝟭𝟬𝟬%"
         )
         await query.message.edit_text(
             text="Λ K K Λ"
