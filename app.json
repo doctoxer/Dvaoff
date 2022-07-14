@@ -15,8 +15,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/doctoxer/DVaUpgraded",
-    "repository": "https://github.com/doctoxer/DVaUpgraded",
+    "website": "https://github.com/doctoxer/Dvaoff",
+    "repository": "https://github.com/doctoxer/Dvaoff",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
