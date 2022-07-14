@@ -106,6 +106,7 @@ async def next_page(bot, query):
                 InlineKeyboardButton(f"☬ 𝙿𝙰𝙶𝙴𝚂 {round(int(offset) / 10) + 1} / {round(total / 10)}", callback_data="pages"),
                 InlineKeyboardButton("⤘", callback_data=f"next_{req}_{key}_{n_offset}")
             ],
+        )
     try:
         await query.edit_message_reply_markup(
             reply_markup=InlineKeyboardMarkup(btn)
